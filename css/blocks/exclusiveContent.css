@@ -1,0 +1,132 @@
+.exclusiveContent {
+    margin: 150px 0px;
+}
+
+.exclusiveContent::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 140px;
+    background-image: url(../../img/exclusiveContent/bg.png);
+    transform: translateY(3px);
+    z-index: -10;
+}
+
+.exclusiveContent::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 140px;
+    background-image: url(../../img/exclusiveContent/bg.png);
+    transform: rotate(180deg) scale(-1, 1) translateY(3px);
+    z-index: -10;
+}
+
+.exclusiveContent__wrapper {
+    background-color: #FBF1E6;
+    padding: 110px 0px;
+}
+
+.exclusiveContent__header__wrapper {
+    margin-bottom: 68px;
+}
+
+.exclusiveContent__header__wrapper::after {
+    content: "";
+    display: block;
+    background: rgba(64, 71, 86, 0.6);
+    width: 1440px;
+    height: 1px;
+    margin-top: 78px;
+}
+
+.exclusiveContent__subtitle__wrapper {
+    justify-content: flex-start;
+}
+
+.exclusiveContent__vector {
+    fill: #FF8961;
+    z-index: 1;
+}
+
+.exclusiveContent__subtitle {
+    z-index: 2;
+}
+
+.exclusiveContent__section:last-child {
+    margin-bottom: 108px;
+}
+
+.exclusiveContent__section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: calc(78px + 68px);
+}
+
+.exclusiveContent__section::after {
+    content: "";
+    display: block;
+    background: rgba(64, 71, 86, 0.6);
+    width: 1440px;
+    height: 1px;
+    margin-top: 78px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.exclusiveContent__section__text__wrapper {
+    max-width: 360px;
+}
+
+.exclusiveContent__section__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.9;
+    margin-bottom: 33px;
+}
+
+.exclusiveContent__section__tier__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.tier__text {
+    font-size: 18px;
+    line-height: 0.9;
+    margin-right: 32px;
+}
+
+.tier__point {
+    width: 16.5px;
+    height: 17.9px;
+    fill: #FFDBB4;
+    margin-left: 5.5px;
+}
+
+.tier__point:first-child{
+    margin-left: 0px;
+}
+
+.active {
+    fill: #FF8961;
+}
+
+.exclusiveContent__section__text {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #404756;
+}
+
+.exclusiveContent__section__img {
+    width: 392px;
+    height: 500px;
+}
+
+.exclusiveContent__img {
+    width: 100%;
+    height: 100%;
+}

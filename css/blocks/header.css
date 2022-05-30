@@ -1,0 +1,33 @@
+.header__wrapper {
+    margin-bottom: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 97px;
+    line-height: 0.9;
+    text-align: center;
+    color: #222222;
+
+    margin-bottom: 35px;
+}
+
+.header__text {
+    font-size: 18px;
+    line-height: 1.4;
+
+    text-align: center;
+    color: #404756;
+
+    max-width: 430px;
+
+    margin-bottom: 30px;
+}
+
+/* .header__btn {
+    display: block;
+} */

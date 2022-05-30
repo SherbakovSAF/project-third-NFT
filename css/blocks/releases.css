@@ -1,0 +1,141 @@
+.releases__section__wrapper {
+    margin-top: 220px;
+}
+
+.releases__section {
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    position: relative;
+    margin-top: 380px;
+}
+
+.releases__section:first-child{
+    margin-top: 0px;
+}
+
+.releases__vector {
+    width: 33px;
+    height: 35.8px;
+    fill: #F7859C;
+}
+
+.releases__vector__wrapper {
+    display: flex;
+}
+
+.releases__vector__wrapper::after {
+    content: attr(data-percent-releases);
+    display: block;
+    z-index: 2;
+    font-size: 18px;
+    line-height: 0.9;
+    color: #F7859C;
+    margin-left: 9.61px;
+    transform: translateY(0.5em);
+}
+
+.releases__section__text__article {
+    position: relative;
+}
+
+.releases__section__text__article::after {
+    content: "";
+    display: block;
+    width: 529.04px;
+    height: 475.79px;
+    background-image: url(../../img/releases/textBG.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-25%, -25%);
+    z-index: -1;
+}
+
+.releases__article__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.9;
+    color: #222222;
+}
+
+.releases__article__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.9;
+    color: #222222;
+}
+
+.releases__article__text {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #404756;
+    max-width: 336px;
+}
+
+
+[data-number-article="1"] {
+    position: relative;
+}
+
+[data-number-article="1"]::before {
+    content: "";
+    display: block;
+    width: 202px;
+    height: 150px;
+    background-image: url(../../img/releases/0Object.svg);
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translate(100%, -100%);
+}
+
+[data-number-article="2"] {
+    position: relative;
+}
+
+[data-number-article="2"]::before {
+    content: "";
+    display: block;
+    width: 185.12px;
+    height: 423.21px;
+    background-image: url(../../img/releases/20Object.svg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70px, -45%);
+}
+
+[data-number-article="4"] {
+    position: relative;
+}
+
+[data-number-article="4"]::before {
+    content: "";
+    display: block;
+    width: 346px;
+    height: 458px;
+    background-image: url(../../img/releases/60Object.svg);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(85px, -100px);
+}
+
+[data-number-article="6"] {
+    position: relative;
+}
+
+[data-number-article="6"]::before {
+    content: "";
+    display: block;
+    width: 297px;
+    height: 427px;
+    background-image: url(../../img/releases/100Object.svg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(54px, -40%);
+}
+

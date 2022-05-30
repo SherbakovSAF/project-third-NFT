@@ -1,0 +1,49 @@
+nav {
+    margin-bottom: 90px;
+}
+.nav__wrapper {
+    padding: 35px 305px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo__block {
+    width: 59px;
+    height: 59px;
+}
+
+.nav__logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav__text__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav__text__link {
+    margin-right: 28px;
+}
+
+.nav__text {
+    font-weight: 700;
+
+}
+
+.nav__text__btn {
+    font-weight: 700;
+    padding: 12px 28px;
+    background: #F7859C;
+    border-radius: 12px;
+    color: #fff;
+
+    transition: all .3s ease-in;
+}
+
+.nav__text__btn:hover {
+    background-color: #fff;
+    color: #F7859C;
+    border: 1px solid #F7859C;
+}
